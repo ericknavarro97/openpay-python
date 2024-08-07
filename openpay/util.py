@@ -2,6 +2,8 @@
 import logging
 import sys
 
+from past.builtins import unicode
+
 logger = logging.getLogger('stripe')
 
 __all__ = ['utf8']
